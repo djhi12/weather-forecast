@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="weather, forecast, preston">
         <meta name="author" content="Daniel John Idorot">
-        <title>Home</title>
+        <title>Preston</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-        <link href="styles/index.css" rel="stylesheet">
+        <link href="styles/preston.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
@@ -26,8 +26,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active text-light nav-link-ltr" href="index.html">Home</a>
-                    <a class="nav-item nav-link text-light nav-link-ltr" href="preston.html">Preston</a>
+                    <a class="nav-item nav-link text-light nav-link-ltr" href="index.html">Home</a>
+                    <a class="nav-item nav-link text-light nav-link-ltr active " href="preston.html">Preston</a>
                     <a class="nav-item nav-link text-light nav-link-ltr" href="#">Soda Spring</a>
                     <a class="nav-item nav-link text-light nav-link-ltr" href="#">Fish Haven</a>
                     <a class="nav-item nav-link text-light nav-link-ltr" href="#">Storm Center</a>
@@ -37,7 +37,69 @@
         </nav>
 
         <!-- Hero img -->
-        <div class="main-page">
+        <div class="container container-hero">
+            <h2>Preston Idaho</h2>
+            <div class="container__hero-img">
+                <img src="https://images.unsplash.com/photo-1658276557474-59bd3c6371f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80"
+                    alt="Preston Idaho">
+            </div>
+            <div class="weather-summary">
+                <h6>Weather Summary</h6>
+            </div>
+        </div>
+
+        <!-- Five day forecast -->
+        <div class="row five-day-forecast-container">
+            <div class="col-sm">
+                <div class="card">
+                    <img src="img_avatar.png" alt="Avatar">
+                    <div class="container">
+                        <h4><b>John Doe</b></h4>
+                        <p>Architect & Engineer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <img src="img_avatar.png" alt="Avatar">
+                    <div class="container">
+                        <h4><b>John Doe</b></h4>
+                        <p>Architect & Engineer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <img src="img_avatar.png" alt="Avatar">
+                    <div class="container">
+                        <h4><b>John Doe</b></h4>
+                        <p>Architect & Engineer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <img src="img_avatar.png" alt="Avatar">
+                    <div class="container">
+                        <h4><b>John Doe</b></h4>
+                        <p>Architect & Engineer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <img src="img_avatar.png" alt="Avatar">
+                    <div class="container">
+                        <h4><b>John Doe</b></h4>
+                        <p>Architect & Engineer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Article -->
+        <div class="container">
+            <h1>Article</h1>
 
         </div>
 
