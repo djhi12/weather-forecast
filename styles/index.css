@@ -2,14 +2,19 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', serif;
 }
 
+/* Navbar logo */
+.logo {
+    margin-left: 40%;
+}
+
 /* Navigation */
 .navbar {
     border-bottom: 1px solid #BBBBBB;
   }
 
-.navbar a {
+/* .navbar a {
     color: white !important;
-}
+} */
   
   .nav-link {
     font-family: 'Merriweather', serif;
@@ -66,3 +71,39 @@ h1, h2, h3, h4, h5, h6 {
   .nav-link-grow-up:hover::before {
     height: 5px;
   }
+
+  .nav-link.active::before {
+    width: 100%;
+    bottom: 10px;
+}
+
+
+/* Hero container */
+.container-hero {
+    position: relative;
+}
+.container h2 {
+    margin-top: 10%;
+}
+
+.container-hero img {
+    width: 100%;
+    height: 400px;
+}
+
+.weather-summary {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+
+
+/* Five day forecast */
+.row {
+    /* background: red; */
+    margin-left: auto;
+    margin-right: auto;
+    /* display: block; */
+}
+
